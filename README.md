@@ -232,6 +232,9 @@ Also, `target-path` supports [ejs](https://github.com/mde/ejs) and the following
 #### Blueprint files
 Blueprints are basically [ejs](https://github.com/mde/ejs) templates which are rendered with the same three variables(`name`, optional `parent` and `helpers` object) as above.
 
+### CI Triggers
+The pipeline runs on every push and commit.
+
 ### Caveats
 
 #### FOUC (Flash of Unstyled Content)
